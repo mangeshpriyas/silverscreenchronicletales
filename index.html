@@ -5,44 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Silver Screen Chronicle Tales</title>
   <style>
-    body {
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
       font-family: 'Segoe UI', sans-serif;
-      background: url('https://images.unsplash.com/photo-1600732037283-b65a9a6edb0e') no-repeat center center fixed;
-      background-size: cover;
-      color: #fff;
+      background-color: #fdf3e4;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      width: 100%;
+    }
+
+    header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .content {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: 0 auto;
       text-align: center;
     }
 
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.7);
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-    }
-
     h1 {
-      font-size: 3em;
-      text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.9);
-      margin-bottom: 0.5em;
+      font-size: 2.4em;
+      color: #222;
+      margin-bottom: 0.3em;
     }
 
-    p {
-      font-size: 1.4em;
-      max-width: 600px;
+    .tagline {
+      font-size: 1.2em;
+      color: #b24500;
+      margin-bottom: 2em;
     }
 
-    .credit {
-      margin-top: 2em;
+    h2 {
+      font-size: 1.8em;
+      color: #333;
+      margin-bottom: 1em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 12px 0;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #d84315;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    ul li a:hover {
+      color: #ff8a00;
+    }
+
+    footer {
+      margin-top: 40px;
       font-size: 0.9em;
-      color: #ccc;
+      color: #888;
     }
   </style>
-  <!-- Meta Pixel Code -->
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -61,17 +99,27 @@ src="https://www.facebook.com/tr?id=2191871597904317&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 </head>
 <body>
-  <div class="overlay">
+
+  <!-- Hero Banner -->
+  <header>
+    <img src="Cinematic%20Time%20Capsule_%20A%20Retro%20Journey.png" alt="Silver Screen Chronicle Tales Banner">
+  </header>
+
+  <!-- Content -->
+  <div class="content">
     <h1>Silver Screen Chronicle Tales</h1>
-    <p>Exploring cinema across eras – from golden age classics to modern masterpieces, by Mangeshpriya Sethuraman.</p>
-    <h2>Recent Posts</h2>
-<ul>
-  <li><a href="PostofSarojadevi.html">▶ Timeless Grace: Iconic Roles of Saroja Devi in Tamil Cinema</a></li>
-  <li><a href="PostofSatyajitRay.html">▶ How Satyajit Ray Redefined Indian Cinema and Storytelling</a></li>
-</ul>
-    <div class="credit">© 2025 Silver Screen Chronicle Tales</div>
+    <p class="tagline">A Cinematic Diary Across the Decades – by Mangeshpriya Sethuraman</p>
+
+    <h2>🎬 Recent Posts</h2>
+    <ul>
+      <li><a href="post1.html">▶ My First Post</a></li>
+      <li><a href="post2.html">▶ Another Cinematic Reflection</a></li>
+    </ul>
+
+    <footer>
+      © 2025 Silver Screen Chronicle Tales
+    </footer>
   </div>
+
 </body>
 </html>
-
-
